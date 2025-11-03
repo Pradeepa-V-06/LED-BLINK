@@ -37,54 +37,44 @@ The **LPC2148**, developed by NXP Semiconductors (Philips), is a 16/32-bit ARM7-
 - **Power modes:** Idle and Power-down with peripheral clock scaling  
 
 ---
-
 ### 🧭 **Procedure**
 
-1. Open **STM32CubeIDE**.
-   <img width="1050" height="591" alt="image" src="https://github.com/user-attachments/assets/109135f6-e6f9-46f8-86e1-ecafa6170b01" />
+1. Open **STM32CubeIDE**.<img width="1919" height="1197" alt="image" src="https://github.com/user-attachments/assets/cce7a1da-5a0c-448b-b55c-b1a66e8ff31a" />
 
-2. Click **File → New STM32 Project**.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/a5799efb-57e1-42b8-ba46-b09f32d86fcb" />
-<img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/edf33429-8eea-4857-a991-c2d7706fc787" />
+2. Click **File → New STM32 Project**.<img width="1916" height="1196" alt="image" src="https://github.com/user-attachments/assets/8a4d7011-e590-47f0-ab05-17a25a30f750" />
+<img width="1914" height="1194" alt="image" src="https://github.com/user-attachments/assets/3eedd240-890f-4c70-a9ef-0ac3e99bad20" />
 
-3. Select the **target microcontroller** or board and click **Next**.
-   <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/f93d88b6-cd7f-49db-84de-351f9b116488" />
+4. Select the **target microcontroller** or board and click **Next**.
+  <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/9731e066-2bd8-4cf6-be92-77c67bf29954" />
 
+5. Name the project.
+<img width="1916" height="1196" alt="image" src="https://github.com/user-attachments/assets/c5738689-96d0-4b0a-9bbb-90acde62f91a" />
 
+6. The corresponding `.ioc` file will be generated automatically.
+ <img width="1918" height="1197" alt="image" src="https://github.com/user-attachments/assets/c49976cc-1538-42f3-924e-379fe29f04cc" />
 
-4. Name the project.
-   <img width="533" height="588" alt="image" src="https://github.com/user-attachments/assets/63de2bab-69d4-4cb9-8db6-1b57adff9878" />
+7. Configure the pins as **GPIO (Input/Output)**, **USART**, etc. as needed. <img width="1915" height="1199" alt="image" src="https://github.com/user-attachments/assets/31098971-cf0a-467f-a362-3815c8095d07" />
+  <img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/fc65cfba-de81-4297-b9e0-dd85ed4b885e" />
 
-5. The corresponding `.ioc` file will be generated automatically.
-  <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/8900847c-6745-43e2-9ecf-2e66877fdc49" />
+8. Save the configuration (`Ctrl + S`) – the base C program will be generated automatically.
+   <img width="1913" height="1195" alt="image" src="https://github.com/user-attachments/assets/24f98efa-479a-4a78-805f-afe2666d7abd" />
 
-6. Configure the pins as **GPIO (Input/Output)**, **USART**, etc. as needed.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/acc4f1c4-5e33-431b-8a76-3b102016baa6" />
-<img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/b7abcd80-797d-451f-a7c3-23f303822423" />
-
-7. Save the configuration (`Ctrl + S`) – the base C program will be generated automatically.
-   <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/dbf4b205-5db9-4e9b-8150-94f441c8b116" />
  
-8. Edit the generated main program as required.
-   <img width="1110" height="624" alt="image" src="https://github.com/user-attachments/assets/05b39060-35d6-420d-9f4d-8721439bd82f" />
-<img width="1104" height="621" alt="image" src="https://github.com/user-attachments/assets/2ec55709-a45f-4e6e-8738-6aa94138eab1" />
+9. Edit the generated main program as required.<img width="1908" height="1199" alt="image" src="https://github.com/user-attachments/assets/d5481c5e-353a-4915-9af6-0b5ed786a101" />
+  <img width="1916" height="1199" alt="image" src="https://github.com/user-attachments/assets/408e2eba-85bf-4503-9004-72996d39ced9" />
 
-9. Click **Project → Build All**.
-    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/264cd0a8-3e96-4668-822e-838ecfafc527" />
+10. Click **Project → Build All**.
+   <img width="787" height="407" alt="image" src="https://github.com/user-attachments/assets/4bfa640c-30c0-448e-8368-2fe9d1655ba1" />
 
-10. Link the **HEX file** using the post-build process.
-    <img width="1053" height="465" alt="image" src="https://github.com/user-attachments/assets/478187a0-0ee6-4c50-9cac-c3b5ee18521b" />
+11. Link the **HEX file** using the post-build process.
+   <img width="1918" height="1193" alt="image" src="https://github.com/user-attachments/assets/341e8bed-a080-4345-9cab-2b03a27f971f" />
 
-11. Click **Debug** and connect the **STM Nucleo Board**.
-    <img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/f72fff44-6073-4ae4-aa78-0da455df9af1" />
+12. Click **Debug** and connect the **STM Nucleo Board**.
+   <img width="1918" height="1193" alt="image" src="https://github.com/user-attachments/assets/b8cda178-6fb5-49c5-bb7e-fb8c98180158" />
 
-13. Click **Run** to execute the program.
-    
+13. Click **Run** to execute the program.   
 ---
-
 ### 💻 **Program**
-
-
 ```c
 #include "main.h"
 
@@ -109,9 +99,9 @@ int main(void)
 ---
 ### OUTPUT
 CASE 1: LED ON 
-
+<img width="603" height="432" alt="image" src="https://github.com/user-attachments/assets/d071869d-34bf-4217-b979-22b43d89f970" />
 CASE 2: LED OFF
-
+<img width="596" height="416" alt="image" src="https://github.com/user-attachments/assets/2f69f542-062f-4599-a23f-f476301f51f8" />
 ---
 ### RESULT
 Interfacing a digital output with ARM microcontroller is executed and the results are verified.
